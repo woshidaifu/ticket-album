@@ -1,0 +1,29 @@
+# 资源目录：图片、数据库、快照都不入库
+# 数据以 resource/db/tickets.db 为准，seed.sql 由 export_seed.py 导出，
+# 门票收藏册.html 由 build_album.py 生成。
+resource/pic/
+resource/db/
+resource/*.md
+*.db
+*.sql
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.html
+
+# 系统与运行期产物
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.bak
+*.swp
+
+# 临时预览 / 证书私钥（不应入库）
+_pv*/
+_tclear*/
+*.crt
+*.key
